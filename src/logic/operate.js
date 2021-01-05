@@ -9,7 +9,7 @@ const operate = (numberOne, numberTwo, operation) => {
     result = firstNum.plus(secondNum).toString();
   } else if (operation === '-') {
     result = firstNum.minus(secondNum).toString();
-  } else if (operation === 'X') {
+  } else if (operation === 'x') {
     result = firstNum.times(secondNum).toString();
   } else if (operation === '÷') {
     result = firstNum.div(secondNum).toString();
