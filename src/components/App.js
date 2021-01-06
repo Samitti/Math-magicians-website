@@ -24,10 +24,12 @@ class App extends Component {
     const { next, total } = this.state;
     const result = next || total || '0';
     return (
-      <div className="App">
-        <h1 className="App-header">Calculator</h1>
-        <Display result={result} />
-        <ButtonPannel clickHandler={this.handleClick} />
+      <div className="calcContainer">
+        <h2>Let’s do some math!</h2>
+        <div className="App">
+          <Display result={result} />
+          <ButtonPannel clickHandler={this.handleClick} />
+        </div>
       </div>
     );
   }

@@ -1,15 +1,23 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './style.css';
 
-function Navbar() {
+const Navbar = () => {
   const styles = {
-    color: 'green'
-  }
+    color: 'green',
+  };
   return (
-    <div>
-      <Link to='/' style={{color: 'red'}} >Home </Link>
-      <Link to='/App' style={styles} >Calculator</Link>
-      <Link to='/Quate' style={styles} >Quote</Link>
+    <div className="topAll">
+      <h1>
+        Math Magicians
+      </h1>
+      <nav className="navLink">
+        <p><Link to="/" style={styles}>Home</Link></p>
+        <p className="linkSplit">|</p>
+        <p><Link to="/App" style={styles}>Calculator</Link></p>
+        <p className="linkSplit">|</p>
+        <p><Link to="/Quote" style={styles}>Quote</Link></p>
+      </nav>
     </div>
   );
 };

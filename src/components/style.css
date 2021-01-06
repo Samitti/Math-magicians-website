@@ -28,3 +28,26 @@ button {
   justify-content: flex-end;
   margin-top: 0;
 }
+
+.topAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 20px 0 20px;
+}
+
+.navLink {
+  display: flex;
+}
+
+.linkSplit {
+  padding: 0 10px 0 10px;
+}
+
+.homeContainer {
+  padding: 0 20px 0 20px;
+}
+
+.quoteContainer {
+  padding: 0 100px 0 100px;
+}
