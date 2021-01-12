@@ -12,6 +12,9 @@ This project was bootstrapped with Create React App.
 - JavaScript
 - Html,
 - CSS
+- Jest
+- RTLs
+- ReactDOM
 
 [Live Demo Link](https://dry-eyrie-48158.herokuapp.com/)
 
