@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks the snapshot of quotepage 1`] = `
+<div>
+  <div
+    class="topAll"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <nav
+      class="navLink"
+    >
+      <p>
+        <a
+          href="/"
+          id="homepage"
+          style="color: green;"
+        >
+          Home
+        </a>
+      </p>
+      <p
+        class="linkSplit"
+      >
+        |
+      </p>
+      <p>
+        <a
+          href="/App"
+          id="calculatorpage"
+          style="color: green;"
+        >
+          Calculator
+        </a>
+      </p>
+      <p
+        class="linkSplit"
+      >
+        |
+      </p>
+      <p>
+        <a
+          href="/Quote"
+          id="quotepage"
+          style="color: green;"
+        >
+          Quote
+        </a>
+      </p>
+    </nav>
+  </div>
+  <div
+    class="quoteContainer"
+  >
+    <h2>
+      Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston
+    </h2>
+  </div>
+</div>
+`;

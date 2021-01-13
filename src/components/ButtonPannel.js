@@ -5,14 +5,14 @@ import Button from './Button';
 const ButtonPanel = ({ clickHandler }) => {
   const buttonNames = [
     ['AC', '+/-', '%', '÷'],
-    ['7', '8', '9', 'X'],
+    ['7', '8', '9', 'x'],
     ['4', '5', '6', '-'],
     ['1', '2', '3', '+'],
     ['0', '.', '='],
   ];
 
   const createID = prefix => `${prefix}-${new Date().getTime()}`;
-  const yellewBtn = ['÷', 'X', '-', '+', '='];
+  const yellewBtn = ['÷', 'x', '-', '+', '='];
 
   return (
     <div className="button-panel">

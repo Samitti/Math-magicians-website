@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks the snapshot of calculatorpage 1`] = `
+<div>
+  <div
+    class="topAll"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <nav
+      class="navLink"
+    >
+      <p>
+        <a
+          href="/"
+          id="homepage"
+          style="color: green;"
+        >
+          Home
+        </a>
+      </p>
+      <p
+        class="linkSplit"
+      >
+        |
+      </p>
+      <p>
+        <a
+          href="/App"
+          id="calculatorpage"
+          style="color: green;"
+        >
+          Calculator
+        </a>
+      </p>
+      <p
+        class="linkSplit"
+      >
+        |
+      </p>
+      <p>
+        <a
+          href="/Quote"
+          id="quotepage"
+          style="color: green;"
+        >
+          Quote
+        </a>
+      </p>
+    </nav>
+  </div>
+  <div
+    class="calcContainer"
+  >
+    <h2>
+      Let’s do some math!
+    </h2>
+    <div
+      class="App"
+    >
+      <div
+        class="display"
+      >
+        0
+      </div>
+      <div
+        class="button-panel"
+      >
+        <div>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="normal"
+            style="background-color: orange;"
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="normal"
+            style="background-color: orange;"
+            type="button"
+          >
+            x
+          </button>
+        </div>
+        <div>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="normal"
+            style="background-color: orange;"
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="normal"
+            style="background-color: orange;"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div>
+          <button
+            class="wide"
+            style="background-color: gray;"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="normal"
+            style="background-color: gray;"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="normal"
+            style="background-color: orange;"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

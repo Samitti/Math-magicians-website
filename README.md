@@ -12,6 +12,9 @@ This project was bootstrapped with Create React App.
 - JavaScript
 - Html,
 - CSS
+- Jest
+- RTLs
+- ReactDOM
 
 [Live Demo Link](https://dry-eyrie-48158.herokuapp.com/)
 
@@ -34,6 +37,11 @@ To get a local copy and running follow these simple example steps.
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Tests
+
+To run tests
+- Run `npm test` in your terminal
 
 ## Author
 
